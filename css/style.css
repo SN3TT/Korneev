@@ -1,0 +1,42 @@
+/* ====== Сброс стилей (Reset) ====== /
+/ Убираем стандартные отступы, шрифты и стили браузеров */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background-color: #1988b4;
+  }
+  
+  /* ====== Базовые стили (Base) ====== /
+  / Общие стили для типографики и элементов /
+  h1, h2, h3, h4, h5, h6 {
+      margin-bottom: 1rem;
+      font-weight: bold;
+  }
+  
+  p {
+      margin-bottom: 1rem;
+  }
+  
+  a {
+      color: #007bff;
+      text-decoration: none;
+  }
+  
+  a:hover {
+      text-decoration: underline;
+  }
+  
+  / ====== Макет (Layout) ====== /
+  / Стили для контейнеров и общего расположения блоков */
+  .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 15px;
+  }
