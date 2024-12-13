@@ -1,0 +1,153 @@
+.performance {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 160px 0 0 0;
+}
+
+.performance-content {
+   
+}
+
+.performance-title {
+    font-size: 120px;
+    font-weight: 700;
+    line-height: 1;
+    margin: 0;
+    
+}
+
+.start-btn {
+    margin-top: 15px;
+    margin-left: 40px;
+    position: absolute;
+    padding: 28px 33px;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 90px;
+    font-size: 32px;
+    font-weight: 400;
+    cursor: pointer;
+   
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.start-btn:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.scroll-link {
+    position: absolute;
+    left: 35px; /* Отступ от левого края */
+    top: 70%; /* Вертикальное центрирование */
+    transform: translateY(-50%); /* Центрирование по вертикали */
+    display: flex;
+    flex-direction: column; /* Расположить элементы по вертикали */
+    align-items: center; /* Центрирование элементов по горизонтали */
+    
+    transition: color 0.3s ease;
+    text-decoration: none;
+    
+}
+
+.scroll-text {
+    font-size: 19px;
+    color: #ffffff;
+    text-decoration: none;
+    writing-mode: vertical-lr; /* Вертикальное расположение текста */
+    margin-bottom: 22px; /* Отступ между текстом и бордером */
+  
+    font-weight: 400;
+    
+}
+
+.scroll-border {
+    width: 1px; /* Толщина бордера */
+    height: 75px; /* Высота бордера */
+    background-color: #ffffff; /* Цвет бордера */
+ 
+}
+
+.scroll-text:hover {
+    color: #000000; /* Цвет текста при наведении */
+}
+
+
+
+.cookies-notice {
+    margin-right: 130px;
+    padding: 122px 0 161px 0;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+    display: flex;
+    align-items: center; /* Центрируем по горизонтали */
+    justify-content: center; /* Центрируем по вертикали */
+}
+
+.cookie-icon {
+    z-index: 1;
+    width: 163px;
+    height: 243px;
+    position: relative;
+    left: 127px; /* Расположить иконку 20px от левого края */
+}
+
+.cookie-content {
+    backdrop-filter: blur(40px);   
+    border-radius: 22px; /* Закругленные углы */
+    padding: 0 0 0 70px;
+    width: 683px; /* Ширина контейнера */
+    display: flex;
+    position: relative;
+}
+
+.cookie-content p {
+    tab-size: 14px;
+    line-height: 14px;
+    padding: 0 0px 0 44px;
+    margin: 13px 0;
+    text-align: start;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+
+}
+
+.border {
+    width: 1px;
+    background-color: #ffffff;
+    margin: 0 20px;
+  
+}
+
+.accept-btn {
+    backdrop-filter: blur(40px); 
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: transparent;
+   
+  
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: auto;
+    font-size: 25px;
+    font-weight: 500;
+    backdrop-filter: blur(40px);   
+    border-top-right-radius: 22px; 
+    border-bottom-right-radius: 22px;  
+    line-height: 15px;
+}
+.accept-btn:hover
+{
+    color: #ffffff;
+}
