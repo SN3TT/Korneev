@@ -1,42 +1,123 @@
-/* ====== Сброс стилей (Reset) ====== /
-/ Убираем стандартные отступы, шрифты и стили браузеров */
-*{
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #000000;
+    background-color: #678FF2;
+    background-image: url('../img/bg.jpg'); 
+    background-size: cover; /* Масштабируем изображение на весь экран */
+    background-repeat: no-repeat; /* Избегаем повторов */
+}
+
+.container {
+    width: 1168px;
+    margin: 0 auto;
+}
+
+header {
+    background: #344681;
+    color: #000000;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    border-bottom: 1px solid #ffffff;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 0 30px 0 52px;
+    height: 50px;
+}
+.header-left {
+    display: flex;
+    align-items: center; 
+    gap: 20px; 
+}
+
+.logo {
+    display: flex;
+    padding: 0 62px 0 0;
+    align-items: center;
+}
+.header-left .vertical-border {
+    width: 1px;
+    height: 50px;
+    background-color: #ffffff; 
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      color: #333;
-      background-color: #1988b4;
-  }
-  
-  /* ====== Базовые стили (Base) ====== /
-  / Общие стили для типографики и элементов /
-  h1, h2, h3, h4, h5, h6 {
-      margin-bottom: 1rem;
-      font-weight: bold;
-  }
-  
-  p {
-      margin-bottom: 1rem;
-  }
-  
-  a {
-      color: #007bff;
-      text-decoration: none;
-  }
-  
-  a:hover {
-      text-decoration: underline;
-  }
-  
-  / ====== Макет (Layout) ====== /
-  / Стили для контейнеров и общего расположения блоков */
-  .container {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 0 15px;
-  }
+}
+
+.nav-list li {
+    margin-left: 20px; 
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 30px; 
+}
+
+.abo {
+    padding: 0 108px 0 108px;
+}
+
+.con {
+    padding: 0 527px 0 0;
+}
+
+
+
+.C19 {
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+
+.lang img {
+    height: 30px;
+    display: block;
+    margin: 0;
+}
+
+.lang img {
+    height: 30px;
+    display: block;
+    margin: 0;
+}
+.vertical-border {
+    width: 1px;
+    height: 50px;
+    background-color: #ffffff;
+    
+}
+
+.C19-container {
+    display: flex;
+    align-items: center;
+    gap: 30px; 
+}
+
+
+.C19-container .vertical-border {
+    width: 1px;
+    height: 50px;
+    background-color: #ffffff;
+}
+
+.logo .vertical-border {
+    width: 2px;
+    height: 50px;
+    background-color: #ffffff;
+    margin-right: 62px; 
+    margin-left: 62px; 
+}
