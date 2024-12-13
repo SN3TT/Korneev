@@ -1,4 +1,54 @@
+@font-face {
+    font-family: 'Futura PT';
+    src: url('../fonts/FuturaCyrillicLight.ttf') format('truetype');
+    font-weight: 300; /* Легкий вес (Light) */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('../fonts/FuturaCyrillicBook.ttf') format('truetype');
+    font-weight: 400; 
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('../fonts/FuturaCyrillicMedium.ttf') format('truetype');
+    font-weight: 500; 
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('../fonts/FuturaCyrillicDemi.ttf') format('truetype');
+    font-weight: 600; 
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('../fonts/FuturaCyrillicBold.ttf') format('truetype');
+    font-weight: 700; 
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('../fonts/FuturaCyrillicExtraBold.ttf') format('truetype');
+    font-weight: 800; 
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('../fonts/FuturaCyrillicHeavy.ttf') format('truetype');
+    font-weight: 900; 
+    font-style: normal;
+}
+
 body {
+    font-family: 'Futura PT';
     margin: 0;
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -20,6 +70,9 @@ header {
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(20px);
     border-bottom: 1px solid #ffffff;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
 }
 
 .header-container {
