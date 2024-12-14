@@ -1,0 +1,100 @@
+.exp {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;   
+    padding: 203px 0 296px 0; 
+}
+
+.exp h2 {
+   font-size: 60px;
+    color: #ffffff;
+    line-height: 30px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0 0 96px 0;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: rgb(118, 154, 243);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    text-align: center;
+    width: 100%;
+    max-width: 323px;
+    max-height: 215px;
+    position: relative;
+}
+
+
+
+.card img {
+    width: 323px;
+    height: 215px;
+    border-radius: 0 0 20px 20px; 
+    position: relative;
+    padding: 23px 0 0 0;
+}
+
+
+
+.card .arrow {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 1.5rem;
+    color: #555;
+}
+
+
+
+.card p {
+    font-size: 25px;
+    font-weight: 400;
+    color: #666;
+    line-height: 25px;
+    padding: 23px 0 0px 0;
+    margin: 0;
+    color: #ffffff;
+}
+
+
+.card-mid p
+{
+    padding: 10px 0 0px 0;
+   
+}
+
+.card-mid img
+{
+    padding: 10px 0 0px 0;
+}
+
+.arrow-container {
+    position: absolute;
+    bottom: -70px; 
+    left: 0; 
+    width: 100px;
+    height: 60px;
+    background-color: #fff; 
+    border-radius: 0 20px 0 20px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.arrow-container img {
+    width: 45.6px;
+    height: 32.2px;
+    padding: 0;
+    left: 0px;
+    top: 0px; 
+
+}
