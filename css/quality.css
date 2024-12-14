@@ -1,0 +1,102 @@
+.border-start{
+    width: 100%;
+    height: 2px;
+    background-color: #ffffff; 
+  
+}
+
+.quality-section {
+    display: flex;
+    flex-direction: column;
+     /* Расстояние между секциями */
+  
+    margin: 0 auto;
+    color: #ffffff;
+    padding: 134px 0 0 0;
+}
+
+.quality-item {
+    display: flex;
+ 
+    gap: 20px; /* Расстояние между текстом и изображением */
+}
+
+.quality-item.reverse {
+    flex-direction: row-reverse; /* Изменяем порядок элементов */
+}
+
+.text-content {
+    flex: 1;
+   
+}
+.left-text
+{
+    padding: 0 0 0 120px;
+}
+.right-text 
+{
+    padding: 0 120px 0 0; /* Отступы */
+    text-align: right;
+    align-items: flex-end; 
+    display: flex;
+    flex-direction: column; /* Элементы идут сверху вниз */
+    justify-content: flex-end;
+}
+
+.individual-text
+{
+    padding: 270px 0 0 120px;
+}
+
+.text-content h3 {
+    font-size: 45px;
+    margin-bottom: 50px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0 0 40px 0;
+
+ 
+}
+
+.text-content p {
+    
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+    margin: 0;
+
+}
+
+.image-content {
+    flex: 1;
+    text-align: center;
+ 
+}
+
+.image-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    
+}
+.border-end{
+    width: 100%;
+    height: 2px;
+    background-color: #ffffff; 
+    margin: -7px 0 0 0;
+}
+/* Адаптивность для мобильных устройств */
+@media (max-width: 768px) {
+    .quality-item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .quality-item.reverse {
+        flex-direction: column; /* Убираем реверс */
+    }
+
+    .text-content {
+        max-width: 100%;
+    }
+}

@@ -50,13 +50,15 @@
 body {
     font-family: 'Futura PT';
     margin: 0;
-    font-family: Arial, sans-serif;
     line-height: 1.6;
     color: #000000;
-    background-color: #678FF2;
+    background-color: #618CF0;
     background-image: url('../img/bg.jpg'); 
-    background-size: cover; /* Масштабируем изображение на весь экран */
-    background-repeat: no-repeat; /* Избегаем повторов */
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-size: 100% auto;
+    background-position: center -50px;
+
 }
 
 .container {
