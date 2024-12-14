@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: 'Futura PT';
     src: url('../fonts/FuturaCyrillicLight.ttf') format('truetype');
@@ -47,6 +48,15 @@
     font-style: normal;
 }
 
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Futura PT';
     margin: 0;
@@ -61,17 +71,13 @@ body {
 
 }
 
-.container {
-    width: 1168px;
-    margin: 0 auto;
-}
 
 header {
     background: #344681;
     color: #000000;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(20px);
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff; 
     position: fixed;
     z-index: 2;
     width: 100%;
@@ -83,6 +89,7 @@ header {
     align-items: center;
     padding: 0 30px 0 52px;
     height: 50px;
+    
 }
 .header-left {
     display: flex;
@@ -176,3 +183,5 @@ header {
     margin-right: 62px; 
     margin-left: 62px; 
 }
+
+

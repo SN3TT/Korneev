@@ -8,9 +8,7 @@
     padding: 12px 0 0 0;
 }
 
-.performance-content {
-   
-}
+
 
 .performance-title {
     font-size: 120px;
@@ -80,10 +78,11 @@
 
 
 .cookies-notice {
+    
     z-index: 2;
     margin-right: 130px;
-    padding: 850px 0 161px 0;
-    width: 100%;
+    margin: 850px 0 161px 0;
+  
     text-align: center;
     font-size: 14px;
     color: #ffffff;
@@ -154,3 +153,5 @@
 {
     color: #ffffff;
 }
+
+

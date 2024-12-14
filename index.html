@@ -10,7 +10,9 @@
     <link rel="stylesheet" href="css/work.css">
     <link rel="stylesheet" href="css/quality.css">
     <link rel="stylesheet" href="css/exp.css">
-
+    <link rel="stylesheet" href="css/test.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/footer.css">
 </head>
 
 <body>
@@ -39,7 +41,6 @@
                 </div>
             </div>
         </div>
-
     </header>
 
     <main>
@@ -48,14 +49,13 @@
                 <h1 class="performance-title">WHEN <br> PERFORMANCE <br> MATTERS
                     <button class="start-btn">Start development with us!</button>
                 </h1>
-                <a href="#next-section" class="scroll-link">
+                <a  href="#footer" class="scroll-link">
                     <div class="scroll-text">Scroll down</div>
                     <div class="scroll-border"></div>
                 </a>
-
-
             </div>
-            <!-- <div class="cookies-notice">
+            
+            <div class="cookies-notice">
                     <img src="img/golub.png" alt="cookie-icon" class="cookie-icon"> 
                     <div class="cookie-content">
                         <p>WE USE COOKIES TO ENSURE YOUR BEST EXPERIENCE. <br>
@@ -65,9 +65,7 @@
                         <div class="border"></div> 
                         <button class="accept-btn">ACCEPT</button>
                     </div>
-                </div> -->
-
-
+                </div>
         </section>
 
         <section class="work-section container">
@@ -110,12 +108,11 @@
             <!-- <div class="blur-section"></div> -->
 
         </section>
+
         <div class="border-start"></div>
         <section class="quality-section ">
-
-
-            <div class="quality-item">
-                <div class="text-content left-text">
+            <div class="quality-item ">
+                <div class="text-content left-text ">
                     <h3>High Quality</h3>
                     <p>We are the leading firm by delivering quality and value to our clients.<br /> All our
                         professionals have huge experience of creating comfortable<br /> high-quality software. We like
@@ -128,22 +125,23 @@
             </div>
 
 
-            <div class="quality-item reverse">
-                <div class="text-content right-text">
-                    <h3>Always in touch 
+            <div class="quality-item reverse ">
+                <div class="text-content  right-text ">
+
+                    <h3>Always in touch
                         <p>We are always ready to answer your questions.<br /> You can call us at the
                             weekends and at night.<br /> Also you can have a meeting for personal consultation.
                         </p>
                     </h3>
+
                 </div>
                 <div class="image-content">
                     <img src="img/Always.png" alt="Always in touch">
                 </div>
-
             </div>
 
 
-            <div class="quality-item">
+            <div class="quality-item ">
                 <div class="text-content left-text individual-text">
                     <h3>Individual Approach</h3>
                     <p>Our company works according to the principle of individual approach to every client.<br /> This
@@ -156,54 +154,105 @@
         </section>
         <div class="border-end"></div>
 
-        <section class="exp container">
+        <section class="exp">
             <h2>Our experience</h2>
-            <div class="cards">
+            <div class="cards container">
                 <div class="card">
                     <p>Serverless Live Streaming</p>
                     <img src="img/i1.png" alt="Placeholder">
                     <div class="arrow-container">
-                        <img  src="img/Vector.svg" alt="">
+                        <img src="img/Vector.svg" alt="">
                     </div>
-                                    </div>
+                </div>
                 <div class="card card-mid">
                     <p>Learn about CloudFlex team cases</p>
                     <img src="img/i2.png" alt="Placeholder">
                     <div class="arrow-container">
-                        <img  src="img/Vector.svg" alt="">
+                        <img src="img/Vector.svg" alt="">
                     </div>
-                                    </div>
+                </div>
                 <div class="card">
                     <p>Live streaming from mobile</p>
                     <img src="img/i3.png" alt="Placeholder">
                     <div class="arrow-container">
-                        <img  src="img/Vector.svg" alt="">
+                        <img src="img/Vector.svg" alt="">
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="test">
+        <section class="test container">
             <h2>Testimonials</h2>
             <div class="test-card">
+                <div class="border-box">
+                    <img class="l-arrow" src="img/Vector (1).svg">
+                </div>
                 <img src="img/Rectangle 9.png" alt="Background" class="test-image">
                 <div class="test-content">
-                    <p>
-                        Очень хороший отзыв, который оставил довольный клиент. А тут я ещё не придумал что написать, поэтому просто добавил это предложение.
-                    </p>
                     <div class="avatar-container">
-                        <img src="avatar.jpg" alt="Client Avatar" class="avatar">
-                        <span class="client-name">Иван Иванов</span>
+                        <img src="img/artem.png" alt="Client Avatar" class="avatar">
                     </div>
+                    <p>
+                        Очень хороший отзыв, который оставил
+                        довольный клиент. А тут я ещё не придумал
+                        что написать, поэтому просто добавил это
+                        предложение.
+                    </p>
+
+                </div>
+                <div class="border-box">
+                    <img class="r-arrow" src="img/Vector (1).svg">
                 </div>
             </div>
         </section>
         
+       
+        <section class="contact-section container">
+           
+            <h2>Ready to get started? Drop us a line!</h2>
+            <form class="contact-form ">
+
+                <input type="text" id="name" placeholder="Name" required>
+
+
+                <input type="email" id="email" placeholder="Email" required>
+
+
+                <textarea id="message" placeholder="What we can do for you?" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+      
     </main>
 
+    <footer id="footer" class="footer">
+        <img class="o1" src="img/o1.png" alt="">
 
-    <footer>
+        <div class="footer-container container">
+            <div class="footer-left">
+                <div>
+                    <a href="#" class="footer-link">Terms of Use</a>
+                    <a href="#" class="footer-link">Privacy Policy</a>
+                </div>
+
+                <span>© CloudFlex 2019. All Rights Reserved.</span>
+            </div>
+            <div class="footer-right">
+                <a href="#" class="footer-icon">
+                    <img src="img/in.png" alt="Icon 1">
+                </a>
+                <a href="#" class="footer-icon">
+                    <img src="img/F.png" alt="Icon 2">
+                </a>
+                <a href="#" class="footer-icon">
+                    <img src="img/insta.png" alt="Icon 3">
+                </a>
+            </div>
+        </div>
+        <img class="o2" src="img/02.png" alt="">
+
     </footer>
-</body>
 
+</body>
 </html>
