@@ -4,11 +4,10 @@
     align-items: center;
     flex-direction: column;
     height: 100vh;
-    padding: 40px;
-    width: 600px;
+    width: 632px;
     text-align: center;
     position: relative; /* Или fixed, если хотите, чтобы элемент всегда оставался в углу */
-
+   
 }
 
 
@@ -17,7 +16,7 @@
   
     font-size: 40px;
     color: #000000;
-    margin: 0;
+    
     
 }
 
@@ -84,3 +83,77 @@
     color: black;
 }
 
+@media (max-width: 742px) {
+    .contact-section {
+    
+        width: 400px;
+    
+    }
+
+    .contact-form button {
+        width: 430px;
+       
+    }
+
+    .contact-section h2 {
+        font-weight: 500;
+      
+        font-size: 40px;
+        color: #000000;
+        margin: 0;
+        
+    }
+    
+} 
+
+@media (max-width: 700px) {
+    .contact-section {
+    
+        width: 200px;
+        justify-content: center;
+    }
+
+    .contact-form button {
+        width: 230px;
+       
+    }
+
+    .contact-section h2 {
+        font-weight: 500;
+      
+        font-size: 23px;
+        color: #000000;
+        
+    }
+
+
+    
+.contact-form label {
+    font-size: 18px;
+    color: #000000;
+    align-self: flex-start;
+    margin-bottom: 8px;
+    margin-left: 20px;
+}
+
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    font-size: 10px;
+    height: 20px;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: #00000080;
+    font-weight: 400;
+    font-size: 12px;
+
+}
+    
+}

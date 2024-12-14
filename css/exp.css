@@ -1,22 +1,25 @@
 .exp {
     text-align: center;
+    align-items: center;
     width: 90%;
     margin: 0 auto;   
     padding: 203px 0 296px 0; 
+    margin: 0;
+  
 }
-
 .exp h2 {
    font-size: 60px;
     color: #ffffff;
     line-height: 30px;
     font-weight: 600;
-    margin: 0;
+  
     padding: 0 0 96px 0;
+    
 }
 
 .cards {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 100px;
     flex-wrap: wrap;
 }
@@ -97,4 +100,39 @@
     left: 0px;
     top: 0px; 
 
+}
+
+
+@media (max-width: 1664px) {
+    .exp h2 {
+        font-size: 60px;
+         color: #ffffff;
+         line-height: 30px;
+         font-weight: 600;
+         margin: 0;
+         padding: 0 0 96px 0;
+         
+     }
+     
+     .cards {
+         display: flex;
+         justify-content: center;
+         
+         flex-wrap: wrap;
+
+         flex-direction: column;
+         align-items: center;
+         width: 100%;
+     }
+
+     .exp h2 {
+        font-size: 40px;
+         color: #ffffff;
+         line-height: 40px;
+         font-weight: 600;
+        
+         padding: 0 0 96px 0;
+         
+     }
+     
 }

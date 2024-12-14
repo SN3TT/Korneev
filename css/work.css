@@ -76,16 +76,26 @@ padding: 14px 10px 0 10px;
     backdrop-filter: blur(10px); /* Непосредственное размытие */
    
 }
-/* Адаптивность для средних экранов */
-@media (max-width: 768px) {
+
+@media (max-width: 1200px) {
+    .grid-container {
+gap: 80px;    }
+}
+@media (max-width: 1000px) {
+    .grid-container {
+    gap: 50px;    
+}
+}
+
+@media (max-width: 868px) {
     .grid-container {
         grid-template-columns: repeat(2, 1fr); /* 2 элемента в строке */
     }
 }
 
-    /* Адаптивность для маленьких экранов */
-    @media (max-width: 480px) {
-        .grid-container {
-            grid-template-columns: 1fr; /* 1 элемент в строке */
-        }
+@media (max-width: 630px) {
+    .grid-container {
+        grid-template-columns: 1fr; /* 1 элемент в строке */
     }
+}
+

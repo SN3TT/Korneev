@@ -1,64 +1,97 @@
 /* Стили для футера */
 .footer {
-   position: relative;
-    background-color: #7594E0;
-}
-.footer-container
-{
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between; /* Располагаем элементы по бокам */
-    align-items: center; /* Центрируем элементы по вертикали */
-    padding: 20px 136px;
-    
-    color: white;
-}
-
-/* Стили для левой части футера */
-.footer-left {
-    display: flex;
-    flex-direction: column; /* Ссылки расположены вертикально */
-    gap: 10px; /* Промежуток между ссылками */
-}
-
-.footer-link {
-    color: #fff;
-    text-decoration: none;
-    font-size: 22px;
-    transition: color 0.3s;
-    line-height: 30px;
-    font-weight: 300;
-    padding: 0 56px 0 0;
-}
-
-.footer-link:hover {
-    color: #ddd;
-}
-
-/* Стили для правой части футера */
-.footer-right {
-    display: flex;
-    gap: 43px; /* Расстояние между иконками */
-    padding: 20px 0 0 0;
-}
-
-.footer-icon img {
-    transition: transform 0.3s ease;
-}
-
-.footer-icon:hover img {
-    transform: scale(1.2); /* Увеличиваем иконки при наведении */
-}
-
-.o1{
-    position: absolute; 
-    top:  -870px; 
-    left: 0; 
-}
-
-.o2{
-    position: absolute; 
-    right: 0; 
-    bottom: 67px;
-    
-}
+    position: relative;
+     background-color: #7594E0;
+ }
+ .footer-container
+ {  
+   margin: 0 auto;
+     display: flex;
+     justify-content: space-between; /* Располагаем элементы по бокам */
+     align-items: center; /* Центрируем элементы по вертикали */
+     padding: 20px 136px;
+     
+     color: white;
+ }
+ 
+ /* Стили для левой части футера */
+ .footer-left {
+     display: flex;
+     flex-direction: column; /* Ссылки расположены вертикально */
+     gap: 10px; /* Промежуток между ссылками */
+ }
+ 
+ .footer-link {
+     color: #fff;
+     text-decoration: none;
+     font-size: 22px;
+     transition: color 0.3s;
+     line-height: 30px;
+     font-weight: 300;
+     padding: 0 56px 0 0;
+ }
+ 
+ .footer-link:hover {
+     color: #ddd;
+ }
+ 
+ /* Стили для правой части футера */
+ .footer-right {
+     display: flex;
+     gap: 43px; /* Расстояние между иконками */
+     padding: 20px 0 0 0;
+ }
+ 
+ .footer-icon img {
+     transition: transform 0.3s ease;
+ }
+ 
+ .footer-icon:hover img {
+     transform: scale(1.2); /* Увеличиваем иконки при наведении */
+ }
+ 
+ .o1{
+     position: absolute; 
+     top:  -870px; 
+     left: 0; 
+     z-index: -1;
+ }
+ 
+ .o2{
+     position: absolute; 
+     right: 0; 
+     bottom: 67px;
+     z-index: -1;
+ }
+ 
+ @media (max-width: 740px) {
+     .footer-right{
+         position: relative;
+         justify-content: center;
+         gap: 70px;
+         left: -80px;
+     }
+ 
+     .footer-icon img {
+         position: absolute;
+         top: -110px;
+     }
+ 
+     .footer-container
+     {  
+       margin: 0 auto;
+         display: flex;
+         justify-content: center; /* Располагаем элементы по бокам */
+         align-items: center; /* Центрируем элементы по вертикали */
+         padding: 10px 0px;
+         color: white;
+     }
+ }
+ 
+ @media (max-width: 594px) {
+     .footer-right{
+       
+         
+     }
+ }
+ 

@@ -5,8 +5,6 @@
   
 }
 
-
-
 .quality-section {
     display: flex;
     flex-direction: column;
@@ -90,17 +88,62 @@
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 1160px) {
     .quality-item {
         flex-direction: column;
-        text-align: center;
+        text-align: left;
+        align-items: center;
     }
-
     .quality-item.reverse {
-        flex-direction: column; 
+        flex-direction: column;
+        text-align: left;   
+        align-items: center;
+         
     }
+   
 
     .text-content {
         max-width: 100%;
+    }
+
+    .left-text
+    {
+        padding: 0px 20px;
+    }
+
+    .right-text 
+    {
+    
+        padding: 0px 20px;
+    }
+
+    .individual-text
+    {
+        padding: 0px 20px;
+    }
+   
+
+    .image-content img {
+    
+        height: auto;
+        background-size: 100% auto;
+       
+        
+    }
+    .img-note{
+        margin-left: 500px;
+        
+    }
+
+    .img-phone
+    {
+        margin-left: -500px;
+        
+    }
+
+    .img-cactus{
+        margin-left: 500px;
+        margin: 0 0 0 100px;
+        width: 70%;
     }
 }
